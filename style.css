@@ -1,0 +1,122 @@
+
+.container{
+	background-color: #e6e6e6;
+}
+.news{
+	height: 0px;
+	width: 50%;
+	background-color: red;
+}
+body{
+background-color: #e6e6e6;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.img-fluid {
+    width: 100%;
+    height: 180px; 
+}
+#title {
+  background-color: rgb(4, 85, 144);
+
+  color:white;
+}
+
+body {
+    margin: 0px;
+}
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}.
+/*Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: "white";
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: rgb(4, 85, 144);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* Testimonials*/
+#testimonials {
+  text-align: center;
+  background-color: rgb(4, 85, 144);
+  color: #fff;
+  height: 300px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pad{
+	padding: 0px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: rgb(4, 85, 144);
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  height: 100px;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
